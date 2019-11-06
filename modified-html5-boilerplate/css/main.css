@@ -102,7 +102,9 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
+body {
+  background-color: #2B004B;
+}
 
 
 
