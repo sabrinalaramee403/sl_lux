@@ -13,3 +13,8 @@ body{
 	}
 }
 
+section {
+	display: grid;
+	grid-template-columns: 12(repeat 1fr);
+	grid-template-rows: 12(repeat 1fr);
+}
