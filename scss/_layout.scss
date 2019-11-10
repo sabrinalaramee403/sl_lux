@@ -15,6 +15,16 @@ body{
 
 section {
 	display: grid;
-	grid-template-columns: 12(repeat 1fr);
-	grid-template-rows: 12(repeat 1fr);
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+	.introduction {
+		grid-column: 2 / span 4;
+		grid-row: 2;
+	}
+
+	.imagextext {
+		grid-column: 1;
+	}
+
 }
