@@ -34,4 +34,20 @@ section {
 	.about {
 		grid-column: 1;
 	}
+
+	.remote {
+		grid-column: 1;
+	}
+
+	.remote1 {
+		img {
+			grid-column: 2;
+			height: 200px;
+		}
+	}
+
+	.faq {
+		grid-column: 1;
+	}
+
 }
