@@ -8,32 +8,6 @@ section {
 	grid-template-columns: repeat(5, 1fr);
 	grid-template-rows: repeat(5, 1fr);
 
-	.intro {
-		grid-column: 2 / span 3;
-		grid-row: 1;
-			img{
-				height: 200px;
-			}
-	}
-
-	.introduction {
-		grid-column: 2 / span 4;
-		grid-row: 2;
-	}
-
-	.imagextext {
-		grid-column: 2;
-		grid-row: 2;
-		img{
-			height: 250px;
-			}
-	}
-
-	.list1 {
-		grid-column: 3;
-		grid-row: 2;
-	}
-
 	.about {
 		grid-column: 2 / span 3;
 		grid-row: 3;
