@@ -3,16 +3,6 @@ body{
 	padding: 50px;
 }
 
-.introduction {
-	align-self: center;
-}
-
-.imagextext {
-	img {
-		height: 200px;
-	}
-}
-
 section {
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
@@ -22,7 +12,7 @@ section {
 		grid-column: 2 / span 3;
 		grid-row: 1;
 			img{
-				height: 100px;
+				height: 200px;
 			}
 	}
 
@@ -34,6 +24,9 @@ section {
 	.imagextext {
 		grid-column: 2;
 		grid-row: 2;
+		img{
+			height: 200px;
+			}
 	}
 
 	.list1 {
