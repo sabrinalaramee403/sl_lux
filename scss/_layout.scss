@@ -15,8 +15,8 @@ body{
 
 section {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
 
 	.introduction {
 		grid-column: 2 / span 4;
@@ -32,22 +32,27 @@ section {
 	}
 
 	.about {
-		grid-column: 1;
+		grid-column: 1 / span 2;
 	}
 
 	.remote {
-		grid-column: 1;
+		grid-column: 3 / span 2;
 	}
 
 	.remote1 {
 		img {
-			grid-column: 2;
+			grid-column: 3;
 			height: 200px;
 		}
 	}
 
 	.faq {
-		grid-column: 1;
+		grid-column: 3 / span 2;
+	}
+
+	.contact {
+		grid-column: 3 / span 2;
+		grid-row: 4;
 	}
 
 }
