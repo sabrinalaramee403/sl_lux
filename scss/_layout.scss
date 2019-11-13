@@ -27,33 +27,33 @@ section {
 	}
 
 	.introduction {
-		grid-column: 2 / span 4;
+		grid-column: 3 / span 4;
 		grid-row: 2;
 	}
 
 	.imagextext {
-		grid-column: 2;
+		grid-column: 3;
 		grid-row: 2;
 	}
 
 	.list1 {
-		grid-column: 3 / span 2;
+		grid-column: 4;
 		grid-row: 2;
 	}
 
 	.about {
-		grid-column: 2 / span 2;
+		grid-column: 3 / span 3;
 		grid-row: 3;
 	}
 
 	.remote {
-		grid-column: 2 / span 2;
+		grid-column: 3 / span 2;
 		grid-row:4;
 	}
 
 	.remote1 {
 		img {
-			grid-column: 2;
+			grid-column: 3;
 			grid-row:4;
 			height: 200px;
 		}
